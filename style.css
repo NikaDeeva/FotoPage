@@ -31,9 +31,7 @@ nav{
  .title{
     font-size: 30px;
  }
-a{
-    text-decoration: none;
-}
+ 
 .nav-link:hover{
     color: var(--hover-color);
 }
