@@ -16,25 +16,7 @@ body{
 color: var(--title-color);
 
 }
-.button{
-    border: 1px solid var(--title-color);
-    background: var(--background-color);
-width: 165px;
-height: 60px;
-cursor: pointer;
-}
-.button:hover{
-    color: var(--hover-color);
-    border: var(--hover-color);
-}
-.card {
-    width: 420px;
-}
-.wrap{
-    margin-bottom: 62px ;
-    font-size: 14px;
-    font-weight: 300;
-    }
+
 span{
     margin-bottom: 32px;
     font-weight: 400;
@@ -59,3 +41,14 @@ a{
     margin-top: 92px;
     margin-bottom: 94px;
 }
+.button{
+    border: 1px solid var(--title-color);
+    background: var(--background-color);
+width: 165px;
+height: 60px;
+cursor: pointer;
+}
+.button:hover{
+    color: var(--hover-color);
+    border: var(--hover-color);
+    }
