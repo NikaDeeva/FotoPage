@@ -19,8 +19,11 @@ color: var(--title-color);
 
 span{
     margin-bottom: 32px;
-    font-weight: 400;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu';
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
     color: var(--span-color);
 }
 nav{
@@ -29,12 +32,13 @@ nav{
     text-align: center;
 }
  .title{
-    font-size: 30px;
+    font-family: 'Playfair Display';
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
  }
- 
-.nav-link:hover{
-    color: var(--hover-color);
-}
+
 .main-wrap{
     margin-top: 92px;
     margin-bottom: 94px;
