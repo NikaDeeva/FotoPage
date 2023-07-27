@@ -16,11 +16,17 @@ body{
 color: var(--title-color);
 
 }
+.container{
+    width: 906px;
+    border: 2px solid black;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
 span{
     margin-bottom: 32px;
     font-family: 'Ubuntu';
-font-size: 14px;
 font-style: normal;
 font-weight: 300;
 line-height: normal;
@@ -32,10 +38,8 @@ nav{
     text-align: center;
 }
  .title{
-    font-family: 'Playfair Display';
 font-size: 30px;
 font-style: normal;
-font-weight: 400;
 line-height: normal;
  }
 
@@ -44,11 +48,14 @@ line-height: normal;
     margin-bottom: 94px;
 }
 .button{
+    color: var(--title-color);
     border: 1px solid var(--title-color);
     background: var(--background-color);
 width: 165px;
 height: 60px;
 cursor: pointer;
+font-style: normal;
+line-height: normal;
 }
 .button:hover{
     color: var(--hover-color);
