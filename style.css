@@ -22,7 +22,7 @@ color: var(--title-color);
     padding-left: 15px;
     padding-right: 15px;
 }
-nav{
+.header-nav{
     word-spacing: 99px;
     color: var(--nav-color);
     text-align: center;
@@ -37,9 +37,8 @@ nav{
     color: var(--nav-color);
     font-family: 'Playfair Display';
 font-size: 14px;
-font-style: normal;
 font-weight: 400;
-line-height: normal;
+transition: color 250ms ease-in-out;
 }
 .link:hover{
     color: var(--hover-color);
@@ -51,12 +50,10 @@ line-height: normal;
 .wrap{
     margin-bottom: 62px;
 }
-span{
+.span{
     margin-bottom: 32px;
     font-family: 'Ubuntu';
-font-style: normal;
 font-weight: 300;
-line-height: normal;
     color: var(--span-color);
 }
 
@@ -64,19 +61,15 @@ line-height: normal;
     color: var(--title-color);
     font-family: 'Playfair Display';
     font-size: 30px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
 margin-top: 32px;
 margin-bottom: 40px;
  }
- p{
+ .text{
     color: var(--title-color);
     font-family: 'Playfair Display';
 font-size: 14px;
-font-style: normal;
 font-weight: 400;
-line-height: normal;
  }
 
 .main-wrap{
@@ -96,8 +89,7 @@ line-height: normal;
 width: 165px;
 height: 60px;
 cursor: pointer;
-font-style: normal;
-line-height: normal;
+transition: color 250ms ease-in-out, border 250ms ease-in-out;
 
 }
 .button:hover{
