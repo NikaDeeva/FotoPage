@@ -1,0 +1,21 @@
+.nav {
+  word-spacing: 99px;
+  color: $nav-color;
+  text-align: center;
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin: 0 auto;
+  }
+  &__link {
+    color: $nav-color;
+    font-family: "Playfair Display";
+    font-size: 14px;
+    font-weight: 400;
+    transition: color 250ms ease-in-out;
+    &:hover {
+      color: $hover-color;
+    }
+  }
+}

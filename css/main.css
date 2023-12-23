@@ -1,1 +1,120 @@
-/*# sourceMappingURL=main.css.map */
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  width: 1200px;
+  padding: 71px 147px;
+  margin: 0 auto;
+  font-family: "Playfair Displey", serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #626262;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 906px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.nav {
+  word-spacing: 99px;
+  color: #7d7d7d;
+  text-align: center;
+}
+.nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 600px;
+  margin: 0 auto;
+}
+.nav__link {
+  color: #7d7d7d;
+  font-family: "Playfair Display";
+  font-size: 14px;
+  font-weight: 400;
+  -webkit-transition: color 250ms ease-in-out;
+  transition: color 250ms ease-in-out;
+}
+.nav__link:hover {
+  color: #03A9F4;
+}
+
+.main__wrap {
+  margin-bottom: 62px;
+  margin-top: 92px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card {
+  width: 420px;
+  margin-bottom: 126px;
+}
+.card__span {
+  margin-bottom: 32px;
+  font-family: "Ubuntu";
+  font-weight: 300;
+  color: #B4AD9E;
+}
+.card__title {
+  color: #626262;
+  font-family: "Playfair Display";
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 32px;
+  margin-bottom: 40px;
+}
+.card__text {
+  color: #626262;
+  font-family: "Playfair Display";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.wrap__button {
+  color: #626262;
+  border: 1px solid #626262;
+  background: #fff;
+  width: 165px;
+  height: 60px;
+  cursor: pointer;
+  -webkit-transition: color 250ms ease-in-out, border 250ms ease-in-out;
+  transition: color 250ms ease-in-out, border 250ms ease-in-out;
+}
+.wrap__button:hover {
+  color: #03A9F4;
+  border: 1px solid #03A9F4;
+}/*# sourceMappingURL=main.css.map */
