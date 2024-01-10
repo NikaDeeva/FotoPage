@@ -1,7 +1,5 @@
-.nav {
+/*.nav {
   word-spacing: 99px;
-  color: $nav-color;
-  text-align: center;
   &__list {
     display: flex;
     justify-content: space-between;
@@ -9,13 +7,40 @@
     margin: 0 auto;
   }
   &__link {
-    color: $nav-color;
-    font-family: "Playfair Display";
+    
     font-size: 14px;
     font-weight: 400;
-    transition: color 250ms ease-in-out;
+   
     &:hover {
       color: $hover-color;
     }
   }
+}
+*/
+.nav{
+  color: $nav-color;
+  text-align: center;
+  &__link{
+    color: $nav-color;
+    font-family: "Playfair Display";
+    transition: color 250ms ease-in-out;
+    margin-top: 5px;
+    &:hover {
+      color: $hover-color;
+    }
+  }
+}
+@media screen and (min-width: 768px){
+  .nav__list{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+}
+@media screen and (min-width:907px){
+  .header{
+    padding-bottom: 71px;
+    padding-top: 92px;
+  }
+  
 }

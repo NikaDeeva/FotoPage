@@ -1,4 +1,4 @@
-.main__wrap {
+/*.main__wrap {
   margin-bottom: 62px;
   margin-top: 92px;
   display: flex;
@@ -6,7 +6,6 @@
   justify-content: space-between;
 }
 .card {
-  width: 420px;
   margin-bottom: 126px;
   &__span {
     margin-bottom: 32px;
@@ -46,4 +45,10 @@
       border: 1px solid $hover-color;
     }
   }
+}*/
+.card{
+  max-width: 420px;
+}
+@media screen and (min-width:480px){
+
 }

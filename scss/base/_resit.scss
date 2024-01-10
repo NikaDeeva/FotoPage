@@ -11,8 +11,7 @@ a{
     text-decoration: none;
 }
 body{
-    width: 1200px;
-    padding: 71px 147px;
+    padding: 0 15px;
     margin: 0 auto;
     font-family: 'Playfair Displey', serif;
     font-weight: 400;
@@ -20,11 +19,24 @@ body{
 color: $title-color;
 box-sizing: border-box;
 }
+img{
+    width: 100%;
+}
 
 
 .container{
-    width: 906px;
+    max-width: 480px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
+}
+@media screen and (min-width: 768px){
+    .container{
+        width: 768px;
+    }
+}
+@media screen and (min-width: 906px){
+    .container{
+        max-width: 1200px;
+    }
 }
