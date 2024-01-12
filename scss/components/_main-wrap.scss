@@ -48,7 +48,56 @@
 }*/
 .card{
   max-width: 420px;
+  &__span {
+    margin-bottom: 32px;
+    font-family: "Ubuntu";
+    font-weight: 300;
+    color: $span-color;
+  }
+  &__title {
+    color: $title-color;
+    font-family: "Playfair Display";
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 32px;
+    margin-bottom: 40px;
+  }
+  &__text {
+    color: $title-color;
+    font-family: "Playfair Display";
+    font-size: 14px;
+    font-weight: 400;
+  }
 }
-@media screen and (min-width:480px){
-
+.main-wrap{
+  margin-bottom: 62px;
+  margin-top: 92px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  &__button {
+    color: $title-color;
+    border: 1px solid $title-color;
+    background: $background-color;
+    width: 165px;
+    height: 60px;
+    cursor: pointer;
+    transition: color 250ms ease-in-out, border 250ms ease-in-out;
+    &:hover {
+      color: $hover-color;
+      border: 1px solid $hover-color;
+    }
+  }
+}
+@media screen and (min-width:768px){
+.card{
+  max-width: 420px;
+  margin-bottom: 126px;
+ 
+}
 }
